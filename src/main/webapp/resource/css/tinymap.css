@@ -1,0 +1,48 @@
+body{
+    font-family: Arial,Helvetica,'宋体';
+}
+.g-head{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+}
+.g-mapContainer{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -999;
+}
+.g-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    background-color: rgba(255,255,255,.9);
+}
+.m-searchBar{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.u-marker{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin-left: -65px;
+}
+.u-marker span{
+    display: inline-block;
+    background-color:#0099FF;
+    border: 1px solid #B3AB96;
+    color: #FFF;
+    padding: 3px 5px;
+    border-radius: 4px;
+    font-family: "Microsoft YaHei";
+    max-width: 150px;
+    font-size: 12px;
+}
+

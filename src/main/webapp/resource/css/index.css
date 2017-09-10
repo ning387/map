@@ -1,0 +1,536 @@
+body{
+    font-family: Arial,Helvetica,'宋体';
+}
+
+.g-navBox{
+    min-width:1280px;
+    position: absolute;
+    right:0;
+    left: 0;
+    height: 28px;
+    background-color: #F8F8F8;
+    padding: 7px 20px;
+}
+.g-container{
+    position: absolute;
+    min-height: 615px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -999;
+}
+.g-mapContainer {
+    position: absolute;
+    top:159px;
+    bottom: 0px;
+    left: 350px;
+    right: 0;
+    z-index: 10;
+    min-height: 430px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.g-head{
+    min-width:1280px;
+    position: absolute;
+    top: 28px;
+    right:0;
+    left: 0;
+    height: 96px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.g-side{
+    position: absolute;
+    bottom: 0;
+    top:124px;
+    left: 0;
+    bottom: 25px;
+    width: 350px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #E6E6E6;
+}
+.g-mapNavBox{
+    min-width:930px;
+    position: absolute;
+    top:124px;
+    left: 350px;
+    right: 0;
+    height: 35px;
+    background-color:#F5F5F5;
+    border-bottom: 1px solid #E6E6E6;
+    font-family: Arial,Helvetica,'宋体';
+    color: #4a4b4b;
+}
+.g-foot{
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    color: #29313c;
+    font-family:"Microsoft YaHei";
+    height: 25px;
+}
+.m-cpy{
+    float: right;
+    margin-right: 100px;
+}
+
+.m-mapContainer{
+    width:100%;
+    height: 100%;
+}
+
+.m-menuLeft{
+    display: inline-block;
+}
+.m-menuRight{
+    float: right;
+}
+.m-menuLeft li,.m-menuRight li{
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+.m-logo{
+    margin-top: 15px;
+    margin-left: 30px;
+    position: relative;
+}
+.m-logo .publicity{
+    background-color: #fd7777;
+    border: 1px solid #e33434;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    position: absolute;
+    top: 44px;
+    left: 50px;
+
+}
+
+.m-menuGroup{
+    padding: 5px;
+    margin: 20px 0px 0px 4px;
+
+}
+.m-menuBtn{
+    margin-bottom: 5px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 12px;
+}
+.m-menuBtn a{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.m-menuBtn a.menuBtnlabel{
+    color: #5b5c5c;
+    font-weight: normal;
+}
+.m-notice{
+    display: block;
+    left: 40px;
+    top:130px;
+}
+
+.m-ad{
+    margin: 30px 60px 20px;
+    height: 330px;
+    width: 222px;
+    border: 1px solid #CCCCCC;
+    float: left;
+    padding: 1px;
+    font-size: 12px;
+    color: #666;
+    font-family: "Microsoft YaHei";
+}
+.m-ad img{
+    margin-bottom: 10px;
+    width: 218px;
+    height: 218px;
+}
+.m-ad .content{
+    padding: 10px 10px;
+}
+.m-ad .title{
+    padding: 0 10px;
+    line-height: 18px;
+}
+.m-ad .title a{
+    font-size: 12px;
+    color: #666;
+}
+.m-ad .price{
+    margin-top: 0px;
+}
+.m-ad .price span:nth-child(1){
+    color: #000;
+    font-size: 12px;
+
+}
+.m-ad .price span:nth-child(2){
+    color: #000;
+    font-size: 16px;
+}
+.m-ad .price span:nth-child(3){
+    float: right;
+    color: #000;
+    font-size: 14px;
+}
+.m-ad .shop{
+    margin-top: 10px;
+}
+.m-ad .shop a{
+    vertical-align: top;
+    margin-left: -2px;
+}
+.m-ad .shop a:hover,.m-ad .shop a:focus,.m-ad .title a:hover,.m-ad .title a:focus{
+    color: #f50;
+}
+.m-ad .shop img{
+    width: 21px;
+    height: 18px;
+}
+
+.m-ad-1{
+     height:94px;
+     width: 224px;
+     margin-top: 5px;
+ }
+.m-ad-1 img{
+    height:90px;
+    width: 220px;
+    margin-bottom:5px;
+}
+.m-ad-1 .title{
+    float: left;
+}
+.m-ad-1 .shop{
+    margin-top: 0;
+    line-height:18px
+}
+
+
+.m-mapNav{
+    font-size: 0;
+    float: left;
+}
+.m-mapNav li{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    font-size: 14px;
+    border-right: 1px solid #E6E6E6;
+    color: #555555;
+}
+.m-mapNav li.z-sel{
+    background-color: #DEEDFF;
+    color: #166ABE;
+    font-weight: bold;
+}
+
+.u-divider{
+    height:1px;
+    margin: 5px 0;
+    overflow: hidden;
+    background-color:#e5e5e5
+}
+
+.m-searchBar{
+    position: absolute;
+    top:15px;
+    left: 350px;
+    width: 520px;
+}
+.m-searchC{
+    float: left;
+    width: 420px;
+}
+.m-searchC .form-control{
+    height: 41px;
+    border:1px solid #DCDCDC;
+    border-radius:0;
+    box-shadow:inset 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow:inset 0 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    display: block;
+}
+
+.m-scMenu{
+    font-size: 0;
+}
+.m-scMenu li{
+    display: inline-block;
+    border: 1px solid #DCDCDC;
+    font-size: 14px;
+    border-top: 0;
+    border-right: 0;
+    height: 20px;
+    width: 25%;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: top;
+    cursor: pointer;
+    color: #7F848A;
+    font-size: 12px;
+}
+.m-scMenu li.z-sel{
+    background-color: #DEEDFF;
+    color: #4B98E4;
+}
+.m-scMenu li.item{
+    width:50%;
+    height:35px;
+    line-height: 35px;
+    border-left: 0;
+}
+.m-scMenu li.item i{
+    color:#fbae53
+}
+
+.m-multiBody{
+   padding: 5px 10px;
+}
+.m-listBtnGroup .u-button-1{
+    font-size: 12px;
+    height: 25px;
+    line-height: 12px;
+    text-align: center;
+    padding: 3px 5px;
+    border: 1px solid #989797;
+}
+
+.m-controlPanel label{
+    cursor: pointer;
+    user-select:none;
+}
+.m-controlPanel input[type=checkbox]{
+    opacity: 0;
+}
+.m-choosePanel{
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.m-choosePanel label{
+     margin-right: 20px;
+     font-weight: normal;
+     color: #6d6d6d;
+}
+.m-choosePanel label[for='remember-btn']{
+    color: #D9534F;
+    font-weight: bold;
+}
+.m-poibox>a{
+    float: right;
+    margin-right: 30px;
+}
+
+.m-inputlatlng{
+    position: absolute;
+    left: 880px;
+    top:15px;
+    width: 377px;
+    z-index: 999;
+}
+
+.m-inputlatlng .form-control{
+    width: 100%;
+    height: 31px;
+    border:1px solid #DCDCDC;
+    border-radius:0;
+    box-shadow:inset 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow:inset 0 0 0 rgba(0, 0, 0, 0);
+}
+.m-inputlatlng .input-group-addon{
+    border-radius: 0;
+}
+.m-inputlatlng .input-group{
+    width: 250px;
+}
+.m-inputlatlng .input-group:first-child{
+    margin-bottom: -1px;
+}
+.m-inputlatlng .m-dropdownMenu{
+    float: left;
+}
+.m-inputlatlng .dropdown-toggle{
+    height: 61px;
+    border-radius: 0;
+    border-left: 0;
+}
+.m-inputlatlng .dropdown-menu{
+    margin-left: 250px;
+    margin-top: -5px;
+}
+
+.m-inputlatlng .latlng-form label{
+    color: #888888;
+    font-weight: normal;
+}
+.m-inputlatlng .latlng-form select{
+    margin-right: 10px;
+    padding: 5px;
+}
+.m-inputlatlng .latlng-form select option{
+    padding: 4px;
+}
+.m-inputlatlng .latlng-form .btn{
+    margin-left: 50px;
+    width: 80px;
+}
+
+.m-poibox { }
+.m-poibox table{
+    margin-bottom: 5px;
+}
+.m-poibox .poi-title{
+     font-size: 18px;
+     color: #0F89F5;
+     padding: 0 0 4px;
+}
+.m-markerTableC{
+    margin-top: 10px;
+    overflow: auto;
+}
+.m-markerTable{
+    border: 1px solid #ddd;
+}
+.m-markerTable>thead>tr{
+    background-color: #F5F6FA;
+    color: #999;
+}
+.m-markerTable>tbody>tr{
+    color: #4b4f54;
+}
+
+.m-markerTable>thead>tr>th,.m-markerTable>tbody>tr>td{
+   vertical-align: middle;
+   text-align: center;
+   padding: 3px;
+}
+.m-markerTable>thead>tr>th{
+    border-bottom: 0;
+    height: 35px;
+}
+.m-markerTable>tbody>tr>td{
+    height: 25px;
+}
+/*.m-markerTable> tbody > tr:nth-of-type(even){*/
+    /*background-color: #F9F9F9;*/
+/*}*/
+
+.m-markerTable> tbody > tr:hover,.m-markerTable> tbody > tr:focus{
+    background-color: #f1f5fc;
+}
+.m-markerTable> tbody > tr.z-sel{
+    background-color: #DEEDFF;
+    color: #4B98E4;
+}
+
+.m-markerTable tr th:first-child{
+    width: 20px;
+}
+.m-markerTable tr td:nth-child(2){
+    text-align: left;
+}
+.m-markerTable tr th:nth-child(3),.m-markerTable tr th:nth-child(4){
+    width: 80px;
+}
+.m-markerList .list-marker-item{
+}
+.m-markerList .list-marker-item button{
+    margin-right: 5px;
+}
+
+
+.m-mapZoomController{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.m-mapZoomController span{
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    background-color: #FFF;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    line-height: 30px;
+    color: #686868;
+}
+.m-mapTypeController{
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+}
+.m-mapTypeController .mapType{
+    display: inline-block;
+    width: 87px;
+    height: 50px;
+    border: 1px solid #696969;
+    cursor: pointer;
+    color: #FFF;
+    position: relative;
+}
+.m-mapTypeController .mapType:nth-child(1){
+    background: url("/resource/image/maptype.png") no-repeat 0 0;
+}
+.m-mapTypeController .mapType:nth-child(2){
+    background: url("/resource/image/maptype.png") no-repeat 0 -180px;
+}
+.m-mapTypeController .mapType span{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: #337AB7;
+    padding: 1px 5px;
+    border-top-left-radius: 3px;
+}
+
+.u-searchBtn{
+    cursor: pointer;
+    color:#8C8C8C;
+    text-align: center;
+    padding: 12px 15px;
+    background-color: #F5F5F5;
+    border: 1px solid #DCDCDC;
+    margin-left: -1px;
+    height: 61px;
+    float: left;
+}
+
+.u-marker{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin-left: -65px;
+}
+.u-marker span{
+    display: inline-block;
+    background-color:#0099FF;
+    border: 1px solid #B3AB96;
+    color: #FFF;
+    padding: 3px 5px;
+    border-radius: 4px;
+    font-family: "Microsoft YaHei";
+    max-width: 150px;
+    font-size: 12px;
+}
+
